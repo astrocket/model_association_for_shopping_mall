@@ -7,4 +7,5 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 User.create(:name => 'seller')
 User.create(:name => 'buyer')
+User.create(:name => 'buyer2')
 Product.create(:name => 'dingcosticker')
