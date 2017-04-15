@@ -3,4 +3,3 @@ class Purchasement < ActiveRecord::Base
 
   belongs_to :product
 end
-# I'm here끊었다 lol   이제 purchasement 마이그레이션으로 넵 product.rb 에서도 셀러
