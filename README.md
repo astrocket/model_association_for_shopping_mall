@@ -1,24 +1,15 @@
+Model association for shopping mall rails application.
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Goal:
 
+1. Product can have two kinds of users, buyers and seller
+2. Seller can have many products to seller
+3. Buyers can buy multiple products
+4. Product can be sold by only one seller and be purchased by any buyers
+5. Every purchasing action records the transaction of each sales
+6. Seller's every sales operations are recorded on Businessment model.
+5. Administrator can manage on-going sales and purchases from Purchasement and Businessment models using rails admin from '/admin' page
 
-Welcome to your Rails project on Cloud9 IDE!
+Rails rocks
 
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://model-association-astrocket.c9users.io/).
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+- Demonstrated by Astro
